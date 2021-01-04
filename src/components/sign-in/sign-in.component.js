@@ -10,8 +10,8 @@ import "./sign-in.styles.scss";
 class SignIn extends Component 
 {
 	state = {
-		email: "",
-		password: ""
+		email: "michael@mailinator.com",
+		password: "12341234"
 	}
 
 	handleSubmit = async (e) => 
