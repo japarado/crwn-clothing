@@ -14,9 +14,9 @@
   "parser": "babel-eslint",
   "plugins": ["react"],
   "rules": {
-		"no-empty": "warn",
+    "no-empty": "warn",
     "no-unused-vars": "warn",
-    "indent": ["warn", "tab"],
+    "indent": ["warn", "tab", { "SwitchCase": 1 }],
     "linebreak-style": ["warn", "unix"],
     "quotes": ["warn", "double"],
     "semi": ["warn", "always"],
