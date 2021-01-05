@@ -66,14 +66,14 @@ class App extends Component
 						path="/shop"
 						component={ShopPage}/>
 					<Route
+						exact
+						path="/signin"
+						render={() => this.props.currentUser ? (<Redirect to="/"/>) : (<SignInAndSignUp/>)}/>
+					<Route
 						exact 
 						patch="/checkout"
 						component={CheckoutPage}
 					/>
-					<Route
-						exact
-						path="/signin"
-						render={() => this.props.currentUser ? (<Redirect to="/"/>) : (<SignInAndSignUp/>)}/>
 				</Switch>
 			</div>
 		);
