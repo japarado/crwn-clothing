@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "rules": {
+    "no-empty": "warn",
+    "no-unused-vars": "warn",
+    "indent": ["warn", "tab", { "SwitchCase": 1 }],
+    "linebreak-style": ["warn", "unix"],
+    "quotes": ["warn", "double"],
+    "semi": ["warn", "always"],
+    "no-var": "warn",
+    "prefer-const": "warn",
+    "arrow-parens": "warn",
+    "brace-style": ["warn", "allman"],
+    "space-infix-ops": ["warn", { "int32Hint": false }],
+    "react/jsx-max-props-per-line": [1, { "maximum": 1 }],
+    "react/jsx-first-prop-new-line": ["warn", "multiline-multiprop"],
+    "react/prop-types": 0
+  }
+}
