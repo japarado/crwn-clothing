@@ -27,6 +27,7 @@
     "space-infix-ops": ["warn", { "int32Hint": false }],
     "react/jsx-max-props-per-line": [1, { "maximum": 1 }],
     "react/jsx-first-prop-new-line": ["warn", "multiline-multiprop"],
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "react/display-name": "warn"
   }
 }
