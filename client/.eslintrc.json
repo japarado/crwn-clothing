@@ -25,6 +25,7 @@
     "arrow-parens": "warn",
     "brace-style": ["warn", "allman"],
     "space-infix-ops": ["warn", { "int32Hint": false }],
+    "no-unreachable": "warn",
     "react/jsx-max-props-per-line": [1, { "maximum": 1 }],
     "react/jsx-first-prop-new-line": ["warn", "multiline-multiprop"],
     "react/prop-types": 0,
